@@ -178,13 +178,16 @@ div {
 .from-watson.latest.top p:before {
   content: ".";
   color: #9855D4;
-  background-image: url("../img/marker_image.png");
-  background-size: 0.3125rem 1.3125rem;
+  /*background-image: url("../img/marker_image.png");*/
+  background-image: url("../img/monetSelf.jpg");
+  background-size: 1.3125rem 3.3125rem;
+  background-color: red;
   position: absolute;
   z-index: 2;
-  left: 0.4375rem;
-  width: 0.3125rem;
-  height: 1.3125rem;
+  left: 0.05rem;
+  /*left: 0.4375rem;*/
+  width: 1.3125rem;
+  height: 2.3125rem;
   line-height: 1.3125rem;
 }
 
